@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .app-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 220px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: scale(1.05);
+        }
+        .app-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .app-card h3 {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .app-card p {
+            font-size: 14px;
+            color: #666;
+        }
+        .app-card a {
+            text-decoration: none;
+        }
+        .app-card button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        .app-card button:hover {
+            background-color: #218838;
+        }
+        .update-info {
+            font-size: 12px;
+            color: #ff5722;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>App Store</h1>
+    </header>
+    <div class="container">
+        <div class="app-card">
+            <img src="https://raw.githubusercontent.com/GameAl4996/xcvb/main/labyrinthe.png?token=GHSAT0AAAAAACVSP2RNEY676DHULRNT24M4ZVX6XUQ" alt="labyrinthe 1.0">
+            <h3>labyrinthe</h3>
+            <p>Description de labyrinthe.</p>
+            <div class="update-info">Nouvelle version disponible : 1.1</div>
+            <a href="https://www.webintoapp.com/download/zip/353925/labyrinthe%201.0.zip?heM9o64alR7w" download>
+                <button>Télécharger</button>
+            </a>
+        </div>
+        <div class="app-card">
+            <img src="https://raw.githubusercontent.com/GameAl4996/xcvb/main/3d%20test.png?token=GHSAT0AAAAAACVSP2RN46PZM2SUWSKJLRVMZVX6VUQ" alt="test3d 1.0.">
+            <h3>test3d</h3>
+            <p>Description de test3d.</p>
+            <div class="update-info">Aucune mise à jour disponible.</div>
+            <a href="https://www.webintoapp.com/download/zip/375312/test3d%201.0.zip?XQip85TtcREe" download>
+                <button>Télécharger</button>
+            </a>
+        </div>
+        <div class="app-card">
+            <img src="https://raw.githubusercontent.com/GameAl4996/xcvb/main/wiflix.png?token=GHSAT0AAAAAACVSP2RNJDSP2NL3NAEXM4PYZVX6ZOA" alt="wiflix">
+            <h3>wiflix</h3>
+            <p>Description de wiflix.</p>
+            <div class="update-info">Mise à jour récente : 1.0.1</div>
+            <a href="https://www.webintoapp.com/download/zip/407939/wiflix%201.0.zip?xzByn3FZkxOm" download>
+                <button>Télécharger</button>
+            </a>
+        </div>
+        <!-- Ajoute plus d'applications ici -->
+    </div>
+</body>
+</html>
